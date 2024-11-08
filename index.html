@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!-- TODO: Create a header with a navigation bar (3 links, including a contact link) -->
 <header>
     <nav class="header">
         <ul class="header-items">
@@ -17,16 +16,35 @@
         </ul>
     </nav>
 </header>
-    <!-- TODO: Add a main content area -->
-        <!-- TODO: Include an image with a caption (use figure and figcaption elements) -->
-        
-        <!-- TODO: Add a section with some text content -->
 
-        <!-- TODO: Create a contact form with inputs for name, email, and a send button -->
+<main>
+    <h1 class="center-text"> My First Webpage</h1>
+    <figure>
+        <img src="./assets/images/image_1.png" alt="Image saying Coming Soon">
+        <figcaption class="center-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+    </figure>
+    <section id="contact">
+        <h2 class="center-text">Contact Me</h2>
+        <form>
+            <ul>
+                <li>
+                    <label class="right-text" for="name">Name:</label>
+                    <input type="text" id="name" name="user-name">
+                </li>
+                <li>
+                    <label class="right-text" for="email">Email:</label>
+                    <input type="text" id="email" name="user-email">
+                </li>
+            </ul>
+            <div class="center-text">
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+    </section>
+</main>
 
 <footer class="footer">
     © 2024 My First Webpage
 </footer>
-    <!-- TODO: (Optional) Add any additional sections or content as desired -->
 </body>
 </html>
