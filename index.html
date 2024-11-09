@@ -6,38 +6,40 @@
     <title>Your Landing Page</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
+
 <header>
-    <nav class="header">
-        <ul class="header-items">
-            <li> <a href="https://github.com/ashnwill01">Github</a></li>
-            <li> <a href="#">Portfolio</a></li>
-            <li> <a href="#contact">Contact</a></li>
+    <nav>
+        <ul class="nav-items">
+            <li class="nav-item"> <a href="https://github.com/ashnwill01" class="nav-link">Github</a></li>
+            <li class="nav-item"> <a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"> <a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <h1 class="center-text"> My First Webpage</h1>
+    <h1 class="center-text title">My First Webpage</h1>
     <figure>
-        <img src="./assets/images/image_1.png" alt="Image saying Coming Soon">
+        <img src="./assets/images/image_1.png" alt="Image saying Coming Soon" id="headshot">
         <figcaption class="center-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
     </figure>
     <section id="contact">
         <h2 class="center-text">Contact Me</h2>
         <form>
-            <ul>
+            <ul class="form-fields">
                 <li>
-                    <label class="right-text" for="name">Name:</label>
+                    <label for="name">Name:</label>
                     <input type="text" id="name" name="user-name">
                 </li>
                 <li>
-                    <label class="right-text" for="email">Email:</label>
+                    <label for="email">Email:</label>
                     <input type="text" id="email" name="user-email">
                 </li>
             </ul>
             <div class="center-text">
-                <button type="submit">SEND</button>
+                <button type="submit" class="form-submission">SEND</button>
             </div>
         </form>
     </section>
